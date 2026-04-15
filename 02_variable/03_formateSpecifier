@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main(){
+    
+    //for int == %d
+    
+    int n=5;
+    
+    printf("%d",n);
+    
+    //for float == %f
+    
+    float num=3.14;
+    
+    printf("\n%f",num);
+    
+    //for char ==%c
+    
+    char character='m';
+    
+    printf("\n%c",character);
+    
+    //for string == %s
+    
+    char string[50]="good morning";
+    
+    printf("\n%s",string);
+
+    return 0;
+}
