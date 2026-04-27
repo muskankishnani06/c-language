@@ -1,22 +1,22 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    
-    float baseSalary,HRA,DA,TA,grossSalary;
-    
-    printf("enter a basesalry=");
-    scanf("%f",&baseSalary);
+int main()
+{
+
+    float baseSalary, HRA, DA, TA, grossSalary;
+
+    printf("enter a bases+Salary=");
+    scanf("%f", &baseSalary);
     printf("enter a HRA percentage=");
-    scanf("%f",&HRA);
+    scanf("%f", &HRA);
     printf("enter a DA percentage=");
-    scanf("%f",&DA);
+    scanf("%f", &DA);
     printf("enter a TA percentage=");
-    scanf("%f",&TA);    
-    
-    grossSalary =baseSalary*(1+(HRA+DA+TA)/100);
-    
-    printf("Gross Salary is %.2f",grossSalary);
-    
+    scanf("%f", &TA);
+
+    grossSalary = baseSalary * (1 + (HRA + DA + TA) / 100);
+
+    printf("Gross Salary is %.2f", grossSalary);
+
     return 0;
-    
 }
