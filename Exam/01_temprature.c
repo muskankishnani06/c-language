@@ -9,7 +9,7 @@ int main(){
 
     fahrenheit = (0.9/0.5)* celsius+32;
 
-    printf("Fehrenheit value is %0.2f",fahrenheit);
+    printf("Fahrenheit value is %0.2f",fahrenheit);
 
     return 0;
 }
