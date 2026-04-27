@@ -4,7 +4,7 @@
     
 //     int l=5;
     
-//     printf(" lenth is %d",l*l);
+//     printf(" length is %d",l*l);
 //     return 0;
     
 // }
@@ -17,9 +17,9 @@ int main(){
     
     int l;
     
-    printf("Enter a lenth=");
+    printf("Enter a length=");
     scanf("%d",&l);
-    printf("\n  lenth is=%d",l*l);
+    printf("\n  length is=%d",l*l);
     
     return 0;
     
