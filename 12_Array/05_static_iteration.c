@@ -9,4 +9,4 @@ int main(){
     printf("\n third element of an array %d",numArray[2]);
     printf("\n forth element of an array %d",numArray[3]);
     printf("\n fifth element of an array %d",numArray[4]);
-}
+}   
